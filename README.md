@@ -1,0 +1,3 @@
+# MongoDB $in operator with array of arrays
+
+This repository demonstrates an uncommon bug related to the usage of the `$in` operator in MongoDB queries with an array of arrays.  The `$in` operator is designed to check if a field's value exists within a given array. However, providing an array of arrays as the input to `$in` leads to unexpected behavior and incorrect results.  The example showcases this issue and how to resolve it using the correct approach. 
